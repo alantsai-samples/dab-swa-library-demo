@@ -5,7 +5,7 @@
       "options": {
         "set-session-context": false
       },
-      "connection-string": "@env('DATABASE_CONNECTION_STRING')"
+      "connection-string": "Server=tcp:demo230922.database.windows.net,1433;Initial Catalog=demo230922;Persist Security Info=False;User ID=azureadmin;Password=!QAZ2wsx#EDC;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     },
     "runtime": {
       "rest": {
